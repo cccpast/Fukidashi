@@ -1,0 +1,31 @@
+.fukidashi {
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 20px;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background-color: #e0edff;
+    border-radius: 5px;
+    opacity: 0.8;
+    outline: 0;
+}
+.fukidashi:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #e0edff;
+}
+/*
+.fukidashi p {
+    margin: 0;
+    padding: 0;
+}
+*/
